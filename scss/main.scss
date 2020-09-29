@@ -1,10 +1,35 @@
 // Assets
 @import "assets/flipclock.scss";
 
-//abstracts
+body, html {
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background-color: #1e1d1e;
+}
 
+#wrap-wrap {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+  
+  main {
+    width: 100%;
+    height: 101vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-// base
+    .clock {
+      text-align: center;
+      width: auto;
+      max-width: 100%;
+    }
 
+  }
 
-// pages
+}
